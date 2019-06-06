@@ -1,13 +1,6 @@
 header.masthead {
-  position: relative;
-  overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: scroll;
-  background-size: cover;
   .masthead-content {
     z-index: 1;
     position: relative;
@@ -34,3 +27,30 @@ header.masthead {
     }
   }
 }
+
+
+@media( min-width: 1440px) {
+  header.masthead {
+    .masthead-content {
+      .masthead-heading {
+        font-size: 8rem;
+      }
+      .masthead-subheading {
+        font-size: 6rem;
+      }
+    }
+  }
+} 
+
+@media( min-width: 1999px) {
+  header.masthead {
+    .masthead-content {
+      .masthead-heading {
+        font-size: 10rem;
+      }
+      .masthead-subheading {
+        font-size: 8rem;
+      }
+    }
+  }
+} 

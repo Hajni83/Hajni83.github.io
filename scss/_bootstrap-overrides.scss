@@ -53,10 +53,40 @@ $lp-bg-color-4 : #df2b46;
   background-repeat: no-repeat;
   background-position-y: 0;
   background-color: transparent;
-  height: 750px;
+  height: 460px;
   margin-bottom: 0;
   padding-top: 0;
   padding-bottom: 0;
   position: relative;
   background-size: cover;
 }
+
+@media( min-width: 767px) {
+  .background-image {
+    height: 550px;
+  }
+} 
+
+@media( min-width: 991px) {
+  .background-image {
+    height: 700px;
+  }
+} 
+
+@media( min-width: 1200px) {
+  .background-image {
+    height: 800px;
+  }
+}
+
+@media( min-width: 1440px) {
+  .background-image {
+    height: 1110px;
+  }
+} 
+
+@media( min-width: 1999px) {
+  .background-image {
+    height: 1300px;
+  }
+} 
